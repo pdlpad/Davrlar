@@ -1,0 +1,222 @@
+{
+ "hit-spark": {
+  "w": 124,
+  "h": 70,
+  "cols": 3,
+  "frames": 15,
+  "fps": 30,
+  "ox": 34,
+  "oy": 54,
+  "loop": false
+ },
+ "blunt-hit": {
+  "w": 88,
+  "h": 82,
+  "cols": 6,
+  "frames": 27,
+  "fps": 30,
+  "ox": 44,
+  "oy": 66,
+  "loop": false
+ },
+ "bullet-impact": {
+  "w": 129,
+  "h": 85,
+  "cols": 5,
+  "frames": 28,
+  "fps": 20,
+  "ox": 96,
+  "oy": 72,
+  "loop": false
+ },
+ "arrow": {
+  "w": 94,
+  "h": 18,
+  "cols": 2,
+  "frames": 18,
+  "fps": 30,
+  "ox": 88,
+  "oy": 10,
+  "loop": true
+ },
+ "tracer": {
+  "w": 158,
+  "h": 40,
+  "cols": 3,
+  "frames": 18,
+  "fps": 30,
+  "ox": 142,
+  "oy": 18,
+  "loop": true
+ },
+ "laser-blue": {
+  "w": 103,
+  "h": 32,
+  "cols": 3,
+  "frames": 15,
+  "fps": 30,
+  "ox": 87,
+  "oy": 16,
+  "loop": true
+ },
+ "laser-red": {
+  "w": 103,
+  "h": 32,
+  "cols": 3,
+  "frames": 15,
+  "fps": 30,
+  "ox": 87,
+  "oy": 16,
+  "loop": true
+ },
+ "plasma-blue": {
+  "w": 122,
+  "h": 60,
+  "cols": 4,
+  "frames": 24,
+  "fps": 30,
+  "ox": 92,
+  "oy": 30,
+  "loop": true
+ },
+ "plasma-red": {
+  "w": 122,
+  "h": 60,
+  "cols": 4,
+  "frames": 24,
+  "fps": 30,
+  "ox": 92,
+  "oy": 30,
+  "loop": true
+ },
+ "muzzle": {
+  "w": 80,
+  "h": 64,
+  "cols": 6,
+  "frames": 36,
+  "fps": 20,
+  "ox": 31,
+  "oy": 58,
+  "loop": false
+ },
+ "poof-dust": {
+  "w": 98,
+  "h": 92,
+  "cols": 6,
+  "frames": 32,
+  "fps": 20,
+  "ox": 42,
+  "oy": 80,
+  "loop": false
+ },
+ "poof-smoke": {
+  "w": 98,
+  "h": 92,
+  "cols": 6,
+  "frames": 32,
+  "fps": 20,
+  "ox": 42,
+  "oy": 80,
+  "loop": false
+ },
+ "poof-cyber": {
+  "w": 99,
+  "h": 92,
+  "cols": 6,
+  "frames": 32,
+  "fps": 20,
+  "ox": 43,
+  "oy": 80,
+  "loop": false
+ },
+ "coin": {
+  "w": 123,
+  "h": 78,
+  "cols": 6,
+  "frames": 45,
+  "fps": 15,
+  "ox": 53,
+  "oy": 68,
+  "loop": false
+ },
+ "level-gold": {
+  "w": 158,
+  "h": 138,
+  "cols": 7,
+  "frames": 48,
+  "fps": 15,
+  "ox": 79,
+  "oy": 114,
+  "loop": false
+ },
+ "level-fire": {
+  "w": 158,
+  "h": 138,
+  "cols": 7,
+  "frames": 48,
+  "fps": 15,
+  "ox": 79,
+  "oy": 114,
+  "loop": false
+ },
+ "explosion-s": {
+  "w": 170,
+  "h": 200,
+  "cols": 9,
+  "frames": 65,
+  "fps": 12,
+  "ox": 101,
+  "oy": 173,
+  "loop": false
+ },
+ "explosion-m": {
+  "w": 222,
+  "h": 226,
+  "cols": 9,
+  "frames": 65,
+  "fps": 12,
+  "ox": 113,
+  "oy": 182,
+  "loop": false
+ },
+ "explosion-l": {
+  "w": 283,
+  "h": 264,
+  "cols": 9,
+  "frames": 72,
+  "fps": 10,
+  "ox": 144,
+  "oy": 230,
+  "loop": false
+ },
+ "nuke": {
+  "w": 394,
+  "h": 317,
+  "cols": 8,
+  "frames": 72,
+  "fps": 8,
+  "ox": 197,
+  "oy": 281,
+  "loop": false
+ },
+ "meteor": {
+  "w": 259,
+  "h": 208,
+  "cols": 7,
+  "frames": 60,
+  "fps": 12,
+  "ox": 150,
+  "oy": 184,
+  "loop": false
+ },
+ "lightning": {
+  "w": 231,
+  "h": 264,
+  "cols": 8,
+  "frames": 45,
+  "fps": 15,
+  "ox": 115,
+  "oy": 228,
+  "loop": false
+ }
+}

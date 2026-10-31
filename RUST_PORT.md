@@ -17,8 +17,9 @@
 | `data/game.json` (из `tools/gen-data.mjs`) | `src/data.rs` |
 | `core/sim.js` | `src/sim.rs` |
 | `core/ai.js` | `src/ai.rs` |
-| `client/draw.js`, `client/fx.js` | рендер, переписывается заново |
-| `client/main.js` | цикл и ввод, переписывается заново |
+| `client/draw.js`, `client/fx.js` | `game/src/draw.rs`, `game/src/fx.rs` |
+| `client/main.js` | `game/src/main.rs`, `game/src/session.rs`, `game/src/hud.rs` |
+| `client/i18n.js` | `game/src/i18n.rs` |
 
 ## Правила, чтобы хэши не разошлись
 
@@ -28,7 +29,6 @@
 - события в хэш не входят
 - баланс правится только в `tools/gen-data.mjs`, затем `node tools/gen-data.mjs && node tools/export-replays.mjs`
 
-## Дальше
+## Эффекты
 
-Рендер: Bevy или macroquad читает `State` и `Event`, ввод превращает в `Cmd`.
-Эффекты pixelfx надо переписать (JS-код в `vendor/pixelfx/src/fx`) или запекать в спрайт-листы: `node tools/render.mjs <категория/эффект> --sheet`.
+`node tools/bake-fx.mjs` запекает эффекты pixelfx в `game/assets/fx`: PNG-листы и `manifest.json`. Новый лист добавляется в `SHEETS` скрипта и в `sheets!` в `game/src/fx.rs`.
