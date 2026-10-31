@@ -171,8 +171,6 @@ impl Frame {
                 rr(8, 40, 14, 4, hex(0x1e2420));
                 rr(30, 44, 22, 14, hex(0x6c7368));
                 rr(34, 40, 14, 4, hex(0x1e2420));
-                rr(38, h + 14, 2, 26, hex(0xbfc4b4));
-                rr(32, h + 8, 14, 2, hex(0xbfc4b4));
                 rr(8, h + 4, 2, 16, hex(0x3a3a30));
                 rr(10, h + 4, 12, 8, team);
                 rr(22, 14, 12, 12, hex(0x1a1d18));
@@ -212,10 +210,6 @@ impl Frame {
                 rr(40, t + 30, 8, 30, stone[0]);
                 rr(38, t + 20, 12, 2, st.accent);
                 rr(42, t + 34, 4, 4, st.accent);
-            }
-            Crown::Cross => {
-                rr(25, t + 16, 2, 16, st.metal);
-                rr(21, t + 12, 10, 2, st.metal);
             }
             Crown::Yurt => {
                 for (i, w) in [10, 22, 30, 34].into_iter().enumerate() {
@@ -451,7 +445,6 @@ impl Frame {
             Helm::Great => {
                 r!(-3, hy + 6, 7, 6, p.metal);
                 r!(1, hy + 3, 3, 1, p.dark);
-                r!(0, hy + 5, 1, 4, p.accent);
             }
             Helm::Kettle => {
                 r!(-4, hy + 6, 9, 1, p.metal);
