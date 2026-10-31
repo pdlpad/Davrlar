@@ -1,0 +1,695 @@
+{
+ "ru": {
+  "eras": [
+   {
+    "name": "Ранняя империя",
+    "units": [
+     "Легионер",
+     "Велит-пращник",
+     "Центурион"
+    ]
+   },
+   {
+    "name": "Золотой век Антонинов",
+    "units": [
+     "Гастат",
+     "Сагиттарий",
+     "Преторианец"
+    ]
+   },
+   {
+    "name": "Кризис III века",
+    "units": [
+     "Лимитан",
+     "Балеарский пращник",
+     "Клибанарий"
+    ]
+   },
+   {
+    "name": "Поздняя империя",
+    "units": [
+     "Комитат",
+     "Конный лучник",
+     "Схолария"
+    ]
+   },
+   {
+    "name": "Падение Запада",
+    "units": [
+     "Федерат",
+     "Готский лучник",
+     "Букеллярий"
+    ]
+   },
+   {
+    "name": "Византия",
+    "units": [
+     "Скутат",
+     "Токсот",
+     "Катафрактарий"
+    ]
+   },
+   {
+    "name": "Арабский халифат",
+    "units": [
+     "Воин джунда",
+     "Лучник-бедуин",
+     "Тяжёлый всадник"
+    ]
+   },
+   {
+    "name": "Каролинги",
+    "units": [
+     "Франкский воин",
+     "Стрелок Карла",
+     "Паладин"
+    ]
+   },
+   {
+    "name": "Эпоха викингов",
+    "units": [
+     "Бонд",
+     "Метатель дротиков",
+     "Берсерк"
+    ]
+   },
+   {
+    "name": "Раннее рыцарство",
+    "units": [
+     "Копейщик",
+     "Лучник",
+     "Рыцарь"
+    ]
+   },
+   {
+    "name": "Крестовые походы",
+    "units": [
+     "Сержант",
+     "Арбалетчик",
+     "Тамплиер"
+    ]
+   },
+   {
+    "name": "Высокое Средневековье",
+    "units": [
+     "Алебардист",
+     "Генуэзский арбалетчик",
+     "Госпитальер"
+    ]
+   },
+   {
+    "name": "Монгольская империя",
+    "units": [
+     "Пеший нукер",
+     "Конный лучник",
+     "Кешик"
+    ]
+   },
+   {
+    "name": "Столетняя война",
+    "units": [
+     "Билльмен",
+     "Лонгбоумен",
+     "Латник"
+    ]
+   },
+   {
+    "name": "Ренессанс",
+    "units": [
+     "Пикинёр",
+     "Аркебузир",
+     "Кондотьер"
+    ]
+   },
+   {
+    "name": "Эпоха пороха",
+    "units": [
+     "Ландскнехт",
+     "Мушкетёр",
+     "Кирасир"
+    ]
+   },
+   {
+    "name": "Тридцатилетняя война",
+    "units": [
+     "Пикинёр",
+     "Мушкетёр",
+     "Рейтар"
+    ]
+   },
+   {
+    "name": "Эпоха Просвещения",
+    "units": [
+     "Линейный пехотинец",
+     "Фузилёр",
+     "Гренадёр"
+    ]
+   },
+   {
+    "name": "Индустриальная эра",
+    "units": [
+     "Стрелок",
+     "Егерь",
+     "Кирасир-гвардеец"
+    ]
+   },
+   {
+    "name": "Мировые войны",
+    "units": [
+     "Пехотинец",
+     "Пулемётчик",
+     "Танк"
+    ]
+   },
+   {
+    "name": "Информационная эпоха",
+    "units": [
+     "Мотострелок",
+     "Снайпер",
+     "Основной танк"
+    ]
+   },
+   {
+    "name": "Эра роботов",
+    "units": [
+     "Боевой дрон",
+     "Дрон-стрелок",
+     "Шагоход"
+    ]
+   },
+   {
+    "name": "Энергетическое оружие",
+    "units": [
+     "Штурмовик в экзоскелете",
+     "Лазерный стрелок",
+     "Тяжёлый мех"
+    ]
+   },
+   {
+    "name": "Нанотехнологии",
+    "units": [
+     "Нано-боец",
+     "Плазменный стрелок",
+     "Нано-титан"
+    ]
+   },
+   {
+    "name": "Космическая эра",
+    "units": [
+     "Звёздный пехотинец",
+     "Ионный стрелок",
+     "Дредноут-мех"
+    ]
+   }
+  ],
+  "buckets": [
+   {
+    "name": "Античность",
+    "turret": "Баллиста",
+    "special": "Дождь стрел"
+   },
+   {
+    "name": "Средневековье",
+    "turret": "Арбалетная башня",
+    "special": "Огненный дождь"
+   },
+   {
+    "name": "Эпоха пороха",
+    "turret": "Пушка",
+    "special": "Артобстрел"
+   },
+   {
+    "name": "Современность",
+    "turret": "Пулемётная турель",
+    "special": "Авиаудар"
+   },
+   {
+    "name": "Будущее",
+    "turret": "Лазерная турель",
+    "special": "Орбитальный удар"
+   }
+  ]
+ },
+ "en": {
+  "eras": [
+   {
+    "name": "Early Empire",
+    "units": [
+     "Legionary",
+     "Velite slinger",
+     "Centurion"
+    ]
+   },
+   {
+    "name": "Antonine Golden Age",
+    "units": [
+     "Hastatus",
+     "Sagittarius",
+     "Praetorian"
+    ]
+   },
+   {
+    "name": "Crisis of the Third Century",
+    "units": [
+     "Limitanus",
+     "Balearic slinger",
+     "Clibanarius"
+    ]
+   },
+   {
+    "name": "Late Empire",
+    "units": [
+     "Comitatensis",
+     "Horse archer",
+     "Scholarian"
+    ]
+   },
+   {
+    "name": "Fall of the West",
+    "units": [
+     "Foederatus",
+     "Gothic archer",
+     "Bucellarius"
+    ]
+   },
+   {
+    "name": "Byzantium",
+    "units": [
+     "Scutatus",
+     "Toxotes",
+     "Cataphract"
+    ]
+   },
+   {
+    "name": "Arab Caliphate",
+    "units": [
+     "Jund warrior",
+     "Bedouin archer",
+     "Heavy horseman"
+    ]
+   },
+   {
+    "name": "Carolingians",
+    "units": [
+     "Frankish warrior",
+     "Charles's archer",
+     "Paladin"
+    ]
+   },
+   {
+    "name": "Viking Age",
+    "units": [
+     "Bondi",
+     "Javelin thrower",
+     "Berserker"
+    ]
+   },
+   {
+    "name": "Early Chivalry",
+    "units": [
+     "Spearman",
+     "Archer",
+     "Knight"
+    ]
+   },
+   {
+    "name": "Crusades",
+    "units": [
+     "Sergeant",
+     "Crossbowman",
+     "Templar"
+    ]
+   },
+   {
+    "name": "High Middle Ages",
+    "units": [
+     "Halberdier",
+     "Genoese crossbowman",
+     "Hospitaller"
+    ]
+   },
+   {
+    "name": "Mongol Empire",
+    "units": [
+     "Foot nökör",
+     "Horse archer",
+     "Keshig"
+    ]
+   },
+   {
+    "name": "Hundred Years' War",
+    "units": [
+     "Billman",
+     "Longbowman",
+     "Man-at-arms"
+    ]
+   },
+   {
+    "name": "Renaissance",
+    "units": [
+     "Pikeman",
+     "Arquebusier",
+     "Condottiere"
+    ]
+   },
+   {
+    "name": "Age of Gunpowder",
+    "units": [
+     "Landsknecht",
+     "Musketeer",
+     "Cuirassier"
+    ]
+   },
+   {
+    "name": "Thirty Years' War",
+    "units": [
+     "Pikeman",
+     "Musketeer",
+     "Reiter"
+    ]
+   },
+   {
+    "name": "Enlightenment",
+    "units": [
+     "Line infantryman",
+     "Fusilier",
+     "Grenadier"
+    ]
+   },
+   {
+    "name": "Industrial Age",
+    "units": [
+     "Rifleman",
+     "Jäger",
+     "Guard cuirassier"
+    ]
+   },
+   {
+    "name": "World Wars",
+    "units": [
+     "Infantryman",
+     "Machine gunner",
+     "Tank"
+    ]
+   },
+   {
+    "name": "Information Age",
+    "units": [
+     "Mechanized infantryman",
+     "Sniper",
+     "Main battle tank"
+    ]
+   },
+   {
+    "name": "Age of Robots",
+    "units": [
+     "Combat drone",
+     "Gunner drone",
+     "Walker"
+    ]
+   },
+   {
+    "name": "Directed Energy",
+    "units": [
+     "Exosuit trooper",
+     "Laser gunner",
+     "Heavy mech"
+    ]
+   },
+   {
+    "name": "Nanotechnology",
+    "units": [
+     "Nano fighter",
+     "Plasma gunner",
+     "Nano titan"
+    ]
+   },
+   {
+    "name": "Space Age",
+    "units": [
+     "Star trooper",
+     "Ion gunner",
+     "Dreadnought mech"
+    ]
+   }
+  ],
+  "buckets": [
+   {
+    "name": "Antiquity",
+    "turret": "Ballista",
+    "special": "Arrow rain"
+   },
+   {
+    "name": "Middle Ages",
+    "turret": "Crossbow tower",
+    "special": "Fire rain"
+   },
+   {
+    "name": "Gunpowder Age",
+    "turret": "Cannon",
+    "special": "Bombardment"
+   },
+   {
+    "name": "Modern Era",
+    "turret": "Machine gun turret",
+    "special": "Air strike"
+   },
+   {
+    "name": "Future",
+    "turret": "Laser turret",
+    "special": "Orbital strike"
+   }
+  ]
+ },
+ "uz": {
+  "eras": [
+   {
+    "name": "Ilk imperiya",
+    "units": [
+     "Legioner",
+     "Velit-slingchi",
+     "Senturion"
+    ]
+   },
+   {
+    "name": "Antoninlar oltin davri",
+    "units": [
+     "Gastat",
+     "Sagittariy",
+     "Pretorian"
+    ]
+   },
+   {
+    "name": "III asr inqirozi",
+    "units": [
+     "Limitan",
+     "Baleariya slingchisi",
+     "Klibanariy"
+    ]
+   },
+   {
+    "name": "Kech imperiya",
+    "units": [
+     "Komitat",
+     "Otliq kamonchi",
+     "Sxolariy"
+    ]
+   },
+   {
+    "name": "G'arbning qulashi",
+    "units": [
+     "Federat",
+     "Got kamonchisi",
+     "Bukellariy"
+    ]
+   },
+   {
+    "name": "Vizantiya",
+    "units": [
+     "Skutat",
+     "Toksot",
+     "Katafrakt"
+    ]
+   },
+   {
+    "name": "Arab xalifaligi",
+    "units": [
+     "Jund jangchisi",
+     "Badaviy kamonchi",
+     "Og'ir otliq"
+    ]
+   },
+   {
+    "name": "Karolinglar",
+    "units": [
+     "Frank jangchisi",
+     "Karl o'qchisi",
+     "Paladin"
+    ]
+   },
+   {
+    "name": "Vikinglar davri",
+    "units": [
+     "Bond",
+     "Nayza otuvchi",
+     "Berserk"
+    ]
+   },
+   {
+    "name": "Ilk ritsarlik",
+    "units": [
+     "Nayzador",
+     "Kamonchi",
+     "Ritsar"
+    ]
+   },
+   {
+    "name": "Salib yurishlari",
+    "units": [
+     "Serjant",
+     "Arbaletchi",
+     "Tamplier"
+    ]
+   },
+   {
+    "name": "Yuksak o'rta asrlar",
+    "units": [
+     "Alebardachi",
+     "Genuya arbaletchisi",
+     "Gospitalier"
+    ]
+   },
+   {
+    "name": "Mo'g'ul imperiyasi",
+    "units": [
+     "Piyoda nukar",
+     "Otliq kamonchi",
+     "Keshik"
+    ]
+   },
+   {
+    "name": "Yuz yillik urush",
+    "units": [
+     "Billman",
+     "Uzun kamonchi",
+     "Zirhli jangchi"
+    ]
+   },
+   {
+    "name": "Uyg'onish davri",
+    "units": [
+     "Pikachi",
+     "Arkebuzachi",
+     "Kondotyer"
+    ]
+   },
+   {
+    "name": "Porox davri",
+    "units": [
+     "Landsknext",
+     "Mushketyor",
+     "Kirasir"
+    ]
+   },
+   {
+    "name": "O'ttiz yillik urush",
+    "units": [
+     "Pikachi",
+     "Mushketyor",
+     "Reyter"
+    ]
+   },
+   {
+    "name": "Ma'rifat davri",
+    "units": [
+     "Chiziqli piyoda",
+     "Fuziler",
+     "Grenader"
+    ]
+   },
+   {
+    "name": "Sanoat davri",
+    "units": [
+     "Miltiqchi",
+     "Yeger",
+     "Gvardiya kirasiri"
+    ]
+   },
+   {
+    "name": "Jahon urushlari",
+    "units": [
+     "Piyoda askar",
+     "Pulemyotchi",
+     "Tank"
+    ]
+   },
+   {
+    "name": "Axborot davri",
+    "units": [
+     "Motoo'qchi",
+     "Snayper",
+     "Asosiy tank"
+    ]
+   },
+   {
+    "name": "Robotlar davri",
+    "units": [
+     "Jangovar dron",
+     "Dron-o'qchi",
+     "Yurgich"
+    ]
+   },
+   {
+    "name": "Energiya quroli",
+    "units": [
+     "Ekzoskeletli hujumchi",
+     "Lazer o'qchisi",
+     "Og'ir mex"
+    ]
+   },
+   {
+    "name": "Nanotexnologiya",
+    "units": [
+     "Nano-jangchi",
+     "Plazma o'qchisi",
+     "Nano-titan"
+    ]
+   },
+   {
+    "name": "Kosmik davr",
+    "units": [
+     "Yulduz piyodasi",
+     "Ion o'qchisi",
+     "Dreadnout-mex"
+    ]
+   }
+  ],
+  "buckets": [
+   {
+    "name": "Antik davr",
+    "turret": "Balista",
+    "special": "O'q yomg'iri"
+   },
+   {
+    "name": "O'rta asrlar",
+    "turret": "Arbaletli minora",
+    "special": "Olov yomg'iri"
+   },
+   {
+    "name": "Porox davri",
+    "turret": "To'p",
+    "special": "Artilleriya o'qi"
+   },
+   {
+    "name": "Zamonaviylik",
+    "turret": "Pulemyotli minora",
+    "special": "Aviazarba"
+   },
+   {
+    "name": "Kelajak",
+    "turret": "Lazer minora",
+    "special": "Orbital zarba"
+   }
+  ]
+ }
+}

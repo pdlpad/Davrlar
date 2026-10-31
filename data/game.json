@@ -1,0 +1,1602 @@
+{
+ "version": 1,
+ "tps": 30,
+ "lane": 6400,
+ "baseFront": [
+  560,
+  5840
+ ],
+ "spacing": 140,
+ "startGold": 120,
+ "queueMax": 5,
+ "turretSlots": 3,
+ "specialCd": 1500,
+ "dmgVarPct": [
+  92,
+  108
+ ],
+ "baseDmgPct": 300,
+ "counterPct": [
+  [
+   100,
+   160,
+   65
+  ],
+  [
+   85,
+   100,
+   160
+  ],
+  [
+   160,
+   65,
+   100
+  ]
+ ],
+ "suddenTick": 25200,
+ "suddenPermille": 9,
+ "eras": [
+  {
+   "century": 1,
+   "roman": "I",
+   "name": "Ранняя империя",
+   "bucket": 0,
+   "units": [
+    {
+     "name": "Легионер",
+     "hp": 110,
+     "dmg": 11,
+     "range": 130,
+     "cd": 24,
+     "speed": 7,
+     "cost": 40,
+     "train": 45,
+     "reward": 28,
+     "xp": 40
+    },
+    {
+     "name": "Велит-пращник",
+     "hp": 65,
+     "dmg": 13,
+     "range": 700,
+     "cd": 30,
+     "speed": 6,
+     "cost": 55,
+     "train": 60,
+     "reward": 39,
+     "xp": 55
+    },
+    {
+     "name": "Центурион",
+     "hp": 300,
+     "dmg": 26,
+     "range": 150,
+     "cd": 40,
+     "speed": 4,
+     "cost": 120,
+     "train": 105,
+     "reward": 84,
+     "xp": 120
+    }
+   ],
+   "turret": {
+    "name": "Баллиста",
+    "dmg": 15,
+    "range": 900,
+    "cd": 30,
+    "cost": 140,
+    "sell": 84
+   },
+   "special": {
+    "name": "Дождь стрел",
+    "dmg": 100
+   },
+   "baseMax": 2600,
+   "xpNeed": 516,
+   "income": 7000
+  },
+  {
+   "century": 2,
+   "roman": "II",
+   "name": "Золотой век Антонинов",
+   "bucket": 0,
+   "units": [
+    {
+     "name": "Гастат",
+     "hp": 140,
+     "dmg": 14,
+     "range": 130,
+     "cd": 24,
+     "speed": 7,
+     "cost": 48,
+     "train": 45,
+     "reward": 34,
+     "xp": 48
+    },
+    {
+     "name": "Сагиттарий",
+     "hp": 83,
+     "dmg": 17,
+     "range": 708,
+     "cd": 30,
+     "speed": 6,
+     "cost": 65,
+     "train": 60,
+     "reward": 46,
+     "xp": 65
+    },
+    {
+     "name": "Преторианец",
+     "hp": 381,
+     "dmg": 33,
+     "range": 150,
+     "cd": 40,
+     "speed": 4,
+     "cost": 143,
+     "train": 105,
+     "reward": 100,
+     "xp": 143
+    }
+   ],
+   "turret": {
+    "name": "Баллиста",
+    "dmg": 19,
+    "range": 900,
+    "cd": 30,
+    "cost": 167,
+    "sell": 100
+   },
+   "special": {
+    "name": "Дождь стрел",
+    "dmg": 127
+   },
+   "baseMax": 3302,
+   "xpNeed": 614,
+   "income": 8330
+  },
+  {
+   "century": 3,
+   "roman": "III",
+   "name": "Кризис III века",
+   "bucket": 0,
+   "units": [
+    {
+     "name": "Лимитан",
+     "hp": 177,
+     "dmg": 18,
+     "range": 130,
+     "cd": 24,
+     "speed": 7,
+     "cost": 57,
+     "train": 45,
+     "reward": 40,
+     "xp": 57
+    },
+    {
+     "name": "Балеарский пращник",
+     "hp": 105,
+     "dmg": 21,
+     "range": 716,
+     "cd": 30,
+     "speed": 6,
+     "cost": 78,
+     "train": 60,
+     "reward": 55,
+     "xp": 78
+    },
+    {
+     "name": "Клибанарий",
+     "hp": 484,
+     "dmg": 42,
+     "range": 150,
+     "cd": 40,
+     "speed": 4,
+     "cost": 170,
+     "train": 105,
+     "reward": 119,
+     "xp": 170
+    }
+   ],
+   "turret": {
+    "name": "Баллиста",
+    "dmg": 24,
+    "range": 900,
+    "cd": 30,
+    "cost": 198,
+    "sell": 119
+   },
+   "special": {
+    "name": "Дождь стрел",
+    "dmg": 161
+   },
+   "baseMax": 4194,
+   "xpNeed": 732,
+   "income": 9913
+  },
+  {
+   "century": 4,
+   "roman": "IV",
+   "name": "Поздняя империя",
+   "bucket": 0,
+   "units": [
+    {
+     "name": "Комитат",
+     "hp": 225,
+     "dmg": 23,
+     "range": 130,
+     "cd": 24,
+     "speed": 7,
+     "cost": 67,
+     "train": 45,
+     "reward": 47,
+     "xp": 67
+    },
+    {
+     "name": "Конный лучник",
+     "hp": 133,
+     "dmg": 27,
+     "range": 724,
+     "cd": 30,
+     "speed": 6,
+     "cost": 93,
+     "train": 60,
+     "reward": 65,
+     "xp": 93
+    },
+    {
+     "name": "Схолария",
+     "hp": 615,
+     "dmg": 53,
+     "range": 150,
+     "cd": 40,
+     "speed": 4,
+     "cost": 202,
+     "train": 105,
+     "reward": 141,
+     "xp": 202
+    }
+   ],
+   "turret": {
+    "name": "Баллиста",
+    "dmg": 31,
+    "range": 900,
+    "cd": 30,
+    "cost": 236,
+    "sell": 142
+   },
+   "special": {
+    "name": "Дождь стрел",
+    "dmg": 205
+   },
+   "baseMax": 5326,
+   "xpNeed": 869,
+   "income": 11796
+  },
+  {
+   "century": 5,
+   "roman": "V",
+   "name": "Падение Запада",
+   "bucket": 0,
+   "units": [
+    {
+     "name": "Федерат",
+     "hp": 286,
+     "dmg": 29,
+     "range": 130,
+     "cd": 24,
+     "speed": 7,
+     "cost": 80,
+     "train": 45,
+     "reward": 56,
+     "xp": 80
+    },
+    {
+     "name": "Готский лучник",
+     "hp": 169,
+     "dmg": 34,
+     "range": 732,
+     "cd": 30,
+     "speed": 6,
+     "cost": 110,
+     "train": 60,
+     "reward": 77,
+     "xp": 110
+    },
+    {
+     "name": "Букеллярий",
+     "hp": 780,
+     "dmg": 68,
+     "range": 150,
+     "cd": 40,
+     "speed": 4,
+     "cost": 241,
+     "train": 105,
+     "reward": 169,
+     "xp": 241
+    }
+   ],
+   "turret": {
+    "name": "Баллиста",
+    "dmg": 39,
+    "range": 900,
+    "cd": 30,
+    "cost": 281,
+    "sell": 168
+   },
+   "special": {
+    "name": "Дождь стрел",
+    "dmg": 260
+   },
+   "baseMax": 6764,
+   "xpNeed": 1034,
+   "income": 14037
+  },
+  {
+   "century": 6,
+   "roman": "VI",
+   "name": "Византия",
+   "bucket": 0,
+   "units": [
+    {
+     "name": "Скутат",
+     "hp": 363,
+     "dmg": 36,
+     "range": 130,
+     "cd": 24,
+     "speed": 7,
+     "cost": 95,
+     "train": 45,
+     "reward": 67,
+     "xp": 95
+    },
+    {
+     "name": "Токсот",
+     "hp": 215,
+     "dmg": 43,
+     "range": 740,
+     "cd": 30,
+     "speed": 6,
+     "cost": 131,
+     "train": 60,
+     "reward": 92,
+     "xp": 131
+    },
+    {
+     "name": "Катафрактарий",
+     "hp": 991,
+     "dmg": 86,
+     "range": 150,
+     "cd": 40,
+     "speed": 4,
+     "cost": 286,
+     "train": 105,
+     "reward": 200,
+     "xp": 286
+    }
+   ],
+   "turret": {
+    "name": "Баллиста",
+    "dmg": 50,
+    "range": 900,
+    "cd": 30,
+    "cost": 334,
+    "sell": 200
+   },
+   "special": {
+    "name": "Дождь стрел",
+    "dmg": 330
+   },
+   "baseMax": 8590,
+   "xpNeed": 1229,
+   "income": 16704
+  },
+  {
+   "century": 7,
+   "roman": "VII",
+   "name": "Арабский халифат",
+   "bucket": 1,
+   "units": [
+    {
+     "name": "Воин джунда",
+     "hp": 462,
+     "dmg": 46,
+     "range": 130,
+     "cd": 24,
+     "speed": 7,
+     "cost": 114,
+     "train": 45,
+     "reward": 80,
+     "xp": 114
+    },
+    {
+     "name": "Лучник-бедуин",
+     "hp": 273,
+     "dmg": 55,
+     "range": 748,
+     "cd": 30,
+     "speed": 6,
+     "cost": 156,
+     "train": 60,
+     "reward": 109,
+     "xp": 156
+    },
+    {
+     "name": "Тяжёлый всадник",
+     "hp": 1259,
+     "dmg": 109,
+     "range": 150,
+     "cd": 40,
+     "speed": 4,
+     "cost": 341,
+     "train": 105,
+     "reward": 239,
+     "xp": 341
+    }
+   ],
+   "turret": {
+    "name": "Арбалетная башня",
+    "dmg": 63,
+    "range": 900,
+    "cd": 30,
+    "cost": 398,
+    "sell": 239
+   },
+   "special": {
+    "name": "Огненный дождь",
+    "dmg": 420
+   },
+   "baseMax": 10909,
+   "xpNeed": 1466,
+   "income": 19878
+  },
+  {
+   "century": 8,
+   "roman": "VIII",
+   "name": "Каролинги",
+   "bucket": 1,
+   "units": [
+    {
+     "name": "Франкский воин",
+     "hp": 586,
+     "dmg": 59,
+     "range": 130,
+     "cd": 24,
+     "speed": 7,
+     "cost": 135,
+     "train": 45,
+     "reward": 95,
+     "xp": 135
+    },
+    {
+     "name": "Стрелок Карла",
+     "hp": 346,
+     "dmg": 69,
+     "range": 756,
+     "cd": 30,
+     "speed": 6,
+     "cost": 186,
+     "train": 60,
+     "reward": 130,
+     "xp": 186
+    },
+    {
+     "name": "Паладин",
+     "hp": 1599,
+     "dmg": 139,
+     "range": 150,
+     "cd": 40,
+     "speed": 4,
+     "cost": 406,
+     "train": 105,
+     "reward": 284,
+     "xp": 406
+    }
+   ],
+   "turret": {
+    "name": "Арбалетная башня",
+    "dmg": 80,
+    "range": 900,
+    "cd": 30,
+    "cost": 473,
+    "sell": 284
+   },
+   "special": {
+    "name": "Огненный дождь",
+    "dmg": 533
+   },
+   "baseMax": 13855,
+   "xpNeed": 1745,
+   "income": 23655
+  },
+  {
+   "century": 9,
+   "roman": "IX",
+   "name": "Эпоха викингов",
+   "bucket": 1,
+   "units": [
+    {
+     "name": "Бонд",
+     "hp": 744,
+     "dmg": 74,
+     "range": 130,
+     "cd": 24,
+     "speed": 7,
+     "cost": 161,
+     "train": 45,
+     "reward": 113,
+     "xp": 161
+    },
+    {
+     "name": "Метатель дротиков",
+     "hp": 440,
+     "dmg": 88,
+     "range": 764,
+     "cd": 30,
+     "speed": 6,
+     "cost": 221,
+     "train": 60,
+     "reward": 155,
+     "xp": 221
+    },
+    {
+     "name": "Берсерк",
+     "hp": 2030,
+     "dmg": 176,
+     "range": 150,
+     "cd": 40,
+     "speed": 4,
+     "cost": 483,
+     "train": 105,
+     "reward": 338,
+     "xp": 483
+    }
+   ],
+   "turret": {
+    "name": "Арбалетная башня",
+    "dmg": 102,
+    "range": 900,
+    "cd": 30,
+    "cost": 563,
+    "sell": 338
+   },
+   "special": {
+    "name": "Огненный дождь",
+    "dmg": 677
+   },
+   "baseMax": 17596,
+   "xpNeed": 2076,
+   "income": 28150
+  },
+  {
+   "century": 10,
+   "roman": "X",
+   "name": "Раннее рыцарство",
+   "bucket": 1,
+   "units": [
+    {
+     "name": "Копейщик",
+     "hp": 945,
+     "dmg": 95,
+     "range": 130,
+     "cd": 24,
+     "speed": 7,
+     "cost": 191,
+     "train": 45,
+     "reward": 134,
+     "xp": 191
+    },
+    {
+     "name": "Лучник",
+     "hp": 559,
+     "dmg": 112,
+     "range": 772,
+     "cd": 30,
+     "speed": 6,
+     "cost": 263,
+     "train": 60,
+     "reward": 184,
+     "xp": 263
+    },
+    {
+     "name": "Рыцарь",
+     "hp": 2578,
+     "dmg": 223,
+     "range": 150,
+     "cd": 40,
+     "speed": 4,
+     "cost": 574,
+     "train": 105,
+     "reward": 402,
+     "xp": 574
+    }
+   ],
+   "turret": {
+    "name": "Арбалетная башня",
+    "dmg": 129,
+    "range": 900,
+    "cd": 30,
+    "cost": 670,
+    "sell": 402
+   },
+   "special": {
+    "name": "Огненный дождь",
+    "dmg": 859
+   },
+   "baseMax": 22346,
+   "xpNeed": 2467,
+   "income": 33498
+  },
+  {
+   "century": 11,
+   "roman": "XI",
+   "name": "Крестовые походы",
+   "bucket": 1,
+   "units": [
+    {
+     "name": "Сержант",
+     "hp": 1201,
+     "dmg": 120,
+     "range": 130,
+     "cd": 24,
+     "speed": 7,
+     "cost": 228,
+     "train": 45,
+     "reward": 160,
+     "xp": 228
+    },
+    {
+     "name": "Арбалетчик",
+     "hp": 709,
+     "dmg": 142,
+     "range": 780,
+     "cd": 30,
+     "speed": 6,
+     "cost": 313,
+     "train": 60,
+     "reward": 219,
+     "xp": 313
+    },
+    {
+     "name": "Тамплиер",
+     "hp": 3275,
+     "dmg": 284,
+     "range": 150,
+     "cd": 40,
+     "speed": 4,
+     "cost": 683,
+     "train": 105,
+     "reward": 478,
+     "xp": 683
+    }
+   ],
+   "turret": {
+    "name": "Арбалетная башня",
+    "dmg": 164,
+    "range": 900,
+    "cd": 30,
+    "cost": 797,
+    "sell": 478
+   },
+   "special": {
+    "name": "Огненный дождь",
+    "dmg": 1092
+   },
+   "baseMax": 28380,
+   "xpNeed": 2938,
+   "income": 39863
+  },
+  {
+   "century": 12,
+   "roman": "XII",
+   "name": "Высокое Средневековье",
+   "bucket": 1,
+   "units": [
+    {
+     "name": "Алебардист",
+     "hp": 1525,
+     "dmg": 152,
+     "range": 130,
+     "cd": 24,
+     "speed": 7,
+     "cost": 271,
+     "train": 45,
+     "reward": 190,
+     "xp": 271
+    },
+    {
+     "name": "Генуэзский арбалетчик",
+     "hp": 901,
+     "dmg": 180,
+     "range": 788,
+     "cd": 30,
+     "speed": 6,
+     "cost": 373,
+     "train": 60,
+     "reward": 261,
+     "xp": 373
+    },
+    {
+     "name": "Госпитальер",
+     "hp": 4159,
+     "dmg": 360,
+     "range": 150,
+     "cd": 40,
+     "speed": 4,
+     "cost": 813,
+     "train": 105,
+     "reward": 569,
+     "xp": 813
+    }
+   ],
+   "turret": {
+    "name": "Арбалетная башня",
+    "dmg": 208,
+    "range": 900,
+    "cd": 30,
+    "cost": 949,
+    "sell": 569
+   },
+   "special": {
+    "name": "Огненный дождь",
+    "dmg": 1386
+   },
+   "baseMax": 36042,
+   "xpNeed": 3497,
+   "income": 47437
+  },
+  {
+   "century": 13,
+   "roman": "XIII",
+   "name": "Монгольская империя",
+   "bucket": 1,
+   "units": [
+    {
+     "name": "Пеший нукер",
+     "hp": 1937,
+     "dmg": 194,
+     "range": 130,
+     "cd": 24,
+     "speed": 7,
+     "cost": 323,
+     "train": 45,
+     "reward": 226,
+     "xp": 323
+    },
+    {
+     "name": "Конный лучник",
+     "hp": 1144,
+     "dmg": 229,
+     "range": 796,
+     "cd": 30,
+     "speed": 6,
+     "cost": 444,
+     "train": 60,
+     "reward": 311,
+     "xp": 444
+    },
+    {
+     "name": "Кешик",
+     "hp": 5282,
+     "dmg": 458,
+     "range": 150,
+     "cd": 40,
+     "speed": 4,
+     "cost": 968,
+     "train": 105,
+     "reward": 678,
+     "xp": 968
+    }
+   ],
+   "turret": {
+    "name": "Арбалетная башня",
+    "dmg": 264,
+    "range": 900,
+    "cd": 30,
+    "cost": 1129,
+    "sell": 677
+   },
+   "special": {
+    "name": "Огненный дождь",
+    "dmg": 1761
+   },
+   "baseMax": 45774,
+   "xpNeed": 4164,
+   "income": 56450
+  },
+  {
+   "century": 14,
+   "roman": "XIV",
+   "name": "Столетняя война",
+   "bucket": 1,
+   "units": [
+    {
+     "name": "Билльмен",
+     "hp": 2459,
+     "dmg": 246,
+     "range": 130,
+     "cd": 24,
+     "speed": 7,
+     "cost": 384,
+     "train": 45,
+     "reward": 269,
+     "xp": 384
+    },
+    {
+     "name": "Лонгбоумен",
+     "hp": 1453,
+     "dmg": 291,
+     "range": 804,
+     "cd": 30,
+     "speed": 6,
+     "cost": 528,
+     "train": 60,
+     "reward": 370,
+     "xp": 528
+    },
+    {
+     "name": "Латник",
+     "hp": 6708,
+     "dmg": 581,
+     "range": 150,
+     "cd": 40,
+     "speed": 4,
+     "cost": 1152,
+     "train": 105,
+     "reward": 806,
+     "xp": 1152
+    }
+   ],
+   "turret": {
+    "name": "Арбалетная башня",
+    "dmg": 335,
+    "range": 900,
+    "cd": 30,
+    "cost": 1344,
+    "sell": 806
+   },
+   "special": {
+    "name": "Огненный дождь",
+    "dmg": 2236
+   },
+   "baseMax": 58133,
+   "xpNeed": 4954,
+   "income": 67175
+  },
+  {
+   "century": 15,
+   "roman": "XV",
+   "name": "Ренессанс",
+   "bucket": 2,
+   "units": [
+    {
+     "name": "Пикинёр",
+     "hp": 3124,
+     "dmg": 312,
+     "range": 130,
+     "cd": 24,
+     "speed": 7,
+     "cost": 457,
+     "train": 45,
+     "reward": 320,
+     "xp": 457
+    },
+    {
+     "name": "Аркебузир",
+     "hp": 1846,
+     "dmg": 369,
+     "range": 812,
+     "cd": 30,
+     "speed": 6,
+     "cost": 628,
+     "train": 60,
+     "reward": 440,
+     "xp": 628
+    },
+    {
+     "name": "Кондотьер",
+     "hp": 8519,
+     "dmg": 738,
+     "range": 150,
+     "cd": 40,
+     "speed": 4,
+     "cost": 1370,
+     "train": 105,
+     "reward": 959,
+     "xp": 1370
+    }
+   ],
+   "turret": {
+    "name": "Пушка",
+    "dmg": 426,
+    "range": 900,
+    "cd": 30,
+    "cost": 1599,
+    "sell": 959
+   },
+   "special": {
+    "name": "Артобстрел",
+    "dmg": 2840
+   },
+   "baseMax": 73829,
+   "xpNeed": 5892,
+   "income": 79938
+  },
+  {
+   "century": 16,
+   "roman": "XVI",
+   "name": "Эпоха пороха",
+   "bucket": 2,
+   "units": [
+    {
+     "name": "Ландскнехт",
+     "hp": 3967,
+     "dmg": 397,
+     "range": 130,
+     "cd": 24,
+     "speed": 7,
+     "cost": 544,
+     "train": 45,
+     "reward": 381,
+     "xp": 544
+    },
+    {
+     "name": "Мушкетёр",
+     "hp": 2344,
+     "dmg": 469,
+     "range": 820,
+     "cd": 30,
+     "speed": 6,
+     "cost": 747,
+     "train": 60,
+     "reward": 523,
+     "xp": 747
+    },
+    {
+     "name": "Кирасир",
+     "hp": 10819,
+     "dmg": 938,
+     "range": 150,
+     "cd": 40,
+     "speed": 4,
+     "cost": 1631,
+     "train": 105,
+     "reward": 1142,
+     "xp": 1631
+    }
+   ],
+   "turret": {
+    "name": "Пушка",
+    "dmg": 541,
+    "range": 900,
+    "cd": 30,
+    "cost": 1903,
+    "sell": 1142
+   },
+   "special": {
+    "name": "Артобстрел",
+    "dmg": 3606
+   },
+   "baseMax": 93762,
+   "xpNeed": 7013,
+   "income": 95127
+  },
+  {
+   "century": 17,
+   "roman": "XVII",
+   "name": "Тридцатилетняя война",
+   "bucket": 2,
+   "units": [
+    {
+     "name": "Пикинёр",
+     "hp": 5038,
+     "dmg": 504,
+     "range": 130,
+     "cd": 24,
+     "speed": 7,
+     "cost": 647,
+     "train": 45,
+     "reward": 453,
+     "xp": 647
+    },
+    {
+     "name": "Мушкетёр",
+     "hp": 2977,
+     "dmg": 595,
+     "range": 828,
+     "cd": 30,
+     "speed": 6,
+     "cost": 889,
+     "train": 60,
+     "reward": 622,
+     "xp": 889
+    },
+    {
+     "name": "Рейтар",
+     "hp": 13740,
+     "dmg": 1191,
+     "range": 150,
+     "cd": 40,
+     "speed": 4,
+     "cost": 1941,
+     "train": 105,
+     "reward": 1359,
+     "xp": 1941
+    }
+   ],
+   "turret": {
+    "name": "Пушка",
+    "dmg": 687,
+    "range": 900,
+    "cd": 30,
+    "cost": 2264,
+    "sell": 1358
+   },
+   "special": {
+    "name": "Артобстрел",
+    "dmg": 4580
+   },
+   "baseMax": 119078,
+   "xpNeed": 8345,
+   "income": 113201
+  },
+  {
+   "century": 18,
+   "roman": "XVIII",
+   "name": "Эпоха Просвещения",
+   "bucket": 2,
+   "units": [
+    {
+     "name": "Линейный пехотинец",
+     "hp": 6398,
+     "dmg": 640,
+     "range": 130,
+     "cd": 24,
+     "speed": 7,
+     "cost": 770,
+     "train": 45,
+     "reward": 539,
+     "xp": 770
+    },
+    {
+     "name": "Фузилёр",
+     "hp": 3781,
+     "dmg": 756,
+     "range": 836,
+     "cd": 30,
+     "speed": 6,
+     "cost": 1058,
+     "train": 60,
+     "reward": 741,
+     "xp": 1058
+    },
+    {
+     "name": "Гренадёр",
+     "hp": 17450,
+     "dmg": 1512,
+     "range": 150,
+     "cd": 40,
+     "speed": 4,
+     "cost": 2309,
+     "train": 105,
+     "reward": 1616,
+     "xp": 2309
+    }
+   ],
+   "turret": {
+    "name": "Пушка",
+    "dmg": 872,
+    "range": 900,
+    "cd": 30,
+    "cost": 2694,
+    "sell": 1617
+   },
+   "special": {
+    "name": "Артобстрел",
+    "dmg": 5817
+   },
+   "baseMax": 151230,
+   "xpNeed": 9929,
+   "income": 134709
+  },
+  {
+   "century": 19,
+   "roman": "XIX",
+   "name": "Индустриальная эра",
+   "bucket": 2,
+   "units": [
+    {
+     "name": "Стрелок",
+     "hp": 8126,
+     "dmg": 813,
+     "range": 130,
+     "cd": 24,
+     "speed": 7,
+     "cost": 916,
+     "train": 45,
+     "reward": 641,
+     "xp": 916
+    },
+    {
+     "name": "Егерь",
+     "hp": 4802,
+     "dmg": 960,
+     "range": 844,
+     "cd": 30,
+     "speed": 6,
+     "cost": 1260,
+     "train": 60,
+     "reward": 882,
+     "xp": 1260
+    },
+    {
+     "name": "Кирасир-гвардеец",
+     "hp": 22161,
+     "dmg": 1921,
+     "range": 150,
+     "cd": 40,
+     "speed": 4,
+     "cost": 2748,
+     "train": 105,
+     "reward": 1924,
+     "xp": 2748
+    }
+   ],
+   "turret": {
+    "name": "Пушка",
+    "dmg": 1108,
+    "range": 900,
+    "cd": 30,
+    "cost": 3206,
+    "sell": 1924
+   },
+   "special": {
+    "name": "Артобстрел",
+    "dmg": 7387
+   },
+   "baseMax": 192062,
+   "xpNeed": 11818,
+   "income": 160304
+  },
+  {
+   "century": 20,
+   "roman": "XX",
+   "name": "Мировые войны",
+   "bucket": 3,
+   "units": [
+    {
+     "name": "Пехотинец",
+     "hp": 10320,
+     "dmg": 1032,
+     "range": 130,
+     "cd": 24,
+     "speed": 7,
+     "cost": 1090,
+     "train": 45,
+     "reward": 763,
+     "xp": 1090
+    },
+    {
+     "name": "Пулемётчик",
+     "hp": 6098,
+     "dmg": 1220,
+     "range": 852,
+     "cd": 30,
+     "speed": 6,
+     "cost": 1499,
+     "train": 60,
+     "reward": 1049,
+     "xp": 1499
+    },
+    {
+     "name": "Танк",
+     "hp": 28144,
+     "dmg": 2439,
+     "range": 150,
+     "cd": 40,
+     "speed": 4,
+     "cost": 3270,
+     "train": 105,
+     "reward": 2289,
+     "xp": 3270
+    }
+   ],
+   "turret": {
+    "name": "Пулемётная турель",
+    "dmg": 1407,
+    "range": 900,
+    "cd": 30,
+    "cost": 3815,
+    "sell": 2289
+   },
+   "special": {
+    "name": "Авиаудар",
+    "dmg": 9381
+   },
+   "baseMax": 243918,
+   "xpNeed": 14062,
+   "income": 190761
+  },
+  {
+   "century": 21,
+   "roman": "XXI",
+   "name": "Информационная эпоха",
+   "bucket": 3,
+   "units": [
+    {
+     "name": "Мотострелок",
+     "hp": 13106,
+     "dmg": 1311,
+     "range": 130,
+     "cd": 24,
+     "speed": 7,
+     "cost": 1297,
+     "train": 45,
+     "reward": 908,
+     "xp": 1297
+    },
+    {
+     "name": "Снайпер",
+     "hp": 7744,
+     "dmg": 1549,
+     "range": 860,
+     "cd": 30,
+     "speed": 6,
+     "cost": 1784,
+     "train": 60,
+     "reward": 1249,
+     "xp": 1784
+    },
+    {
+     "name": "Основной танк",
+     "hp": 35743,
+     "dmg": 3098,
+     "range": 150,
+     "cd": 40,
+     "speed": 4,
+     "cost": 3892,
+     "train": 105,
+     "reward": 2724,
+     "xp": 3892
+    }
+   ],
+   "turret": {
+    "name": "Пулемётная турель",
+    "dmg": 1787,
+    "range": 900,
+    "cd": 30,
+    "cost": 4540,
+    "sell": 2724
+   },
+   "special": {
+    "name": "Авиаудар",
+    "dmg": 11914
+   },
+   "baseMax": 309776,
+   "xpNeed": 16735,
+   "income": 227006
+  },
+  {
+   "century": 22,
+   "roman": "XXII",
+   "name": "Эра роботов",
+   "bucket": 4,
+   "units": [
+    {
+     "name": "Боевой дрон",
+     "hp": 16645,
+     "dmg": 1664,
+     "range": 130,
+     "cd": 24,
+     "speed": 7,
+     "cost": 1544,
+     "train": 45,
+     "reward": 1081,
+     "xp": 1544
+    },
+    {
+     "name": "Дрон-стрелок",
+     "hp": 9835,
+     "dmg": 1967,
+     "range": 868,
+     "cd": 30,
+     "speed": 6,
+     "cost": 2123,
+     "train": 60,
+     "reward": 1486,
+     "xp": 2123
+    },
+    {
+     "name": "Шагоход",
+     "hp": 45394,
+     "dmg": 3934,
+     "range": 150,
+     "cd": 40,
+     "speed": 4,
+     "cost": 4631,
+     "train": 105,
+     "reward": 3242,
+     "xp": 4631
+    }
+   ],
+   "turret": {
+    "name": "Лазерная турель",
+    "dmg": 2270,
+    "range": 900,
+    "cd": 30,
+    "cost": 5403,
+    "sell": 3242
+   },
+   "special": {
+    "name": "Орбитальный удар",
+    "dmg": 15131
+   },
+   "baseMax": 393416,
+   "xpNeed": 19915,
+   "income": 270137
+  },
+  {
+   "century": 23,
+   "roman": "XXIII",
+   "name": "Энергетическое оружие",
+   "bucket": 4,
+   "units": [
+    {
+     "name": "Штурмовик в экзоскелете",
+     "hp": 21139,
+     "dmg": 2114,
+     "range": 130,
+     "cd": 24,
+     "speed": 7,
+     "cost": 1837,
+     "train": 45,
+     "reward": 1286,
+     "xp": 1837
+    },
+    {
+     "name": "Лазерный стрелок",
+     "hp": 12491,
+     "dmg": 2498,
+     "range": 876,
+     "cd": 30,
+     "speed": 6,
+     "cost": 2526,
+     "train": 60,
+     "reward": 1768,
+     "xp": 2526
+    },
+    {
+     "name": "Тяжёлый мех",
+     "hp": 57651,
+     "dmg": 4996,
+     "range": 150,
+     "cd": 40,
+     "speed": 4,
+     "cost": 5511,
+     "train": 105,
+     "reward": 3858,
+     "xp": 5511
+    }
+   ],
+   "turret": {
+    "name": "Лазерная турель",
+    "dmg": 2883,
+    "range": 900,
+    "cd": 30,
+    "cost": 6429,
+    "sell": 3858
+   },
+   "special": {
+    "name": "Орбитальный удар",
+    "dmg": 19217
+   },
+   "baseMax": 499638,
+   "xpNeed": 23698,
+   "income": 321463
+  },
+  {
+   "century": 24,
+   "roman": "XXIV",
+   "name": "Нанотехнологии",
+   "bucket": 4,
+   "units": [
+    {
+     "name": "Нано-боец",
+     "hp": 26846,
+     "dmg": 2685,
+     "range": 130,
+     "cd": 24,
+     "speed": 7,
+     "cost": 2186,
+     "train": 45,
+     "reward": 1530,
+     "xp": 2186
+    },
+    {
+     "name": "Плазменный стрелок",
+     "hp": 15863,
+     "dmg": 3173,
+     "range": 884,
+     "cd": 30,
+     "speed": 6,
+     "cost": 3006,
+     "train": 60,
+     "reward": 2104,
+     "xp": 3006
+    },
+    {
+     "name": "Нано-титан",
+     "hp": 73216,
+     "dmg": 6345,
+     "range": 150,
+     "cd": 40,
+     "speed": 4,
+     "cost": 6558,
+     "train": 105,
+     "reward": 4591,
+     "xp": 6558
+    }
+   ],
+   "turret": {
+    "name": "Лазерная турель",
+    "dmg": 3661,
+    "range": 900,
+    "cd": 30,
+    "cost": 7651,
+    "sell": 4590
+   },
+   "special": {
+    "name": "Орбитальный удар",
+    "dmg": 24405
+   },
+   "baseMax": 634540,
+   "xpNeed": 28200,
+   "income": 382541
+  },
+  {
+   "century": 25,
+   "roman": "XXV",
+   "name": "Космическая эра",
+   "bucket": 4,
+   "units": [
+    {
+     "name": "Звёздный пехотинец",
+     "hp": 34094,
+     "dmg": 3409,
+     "range": 130,
+     "cd": 24,
+     "speed": 7,
+     "cost": 2601,
+     "train": 45,
+     "reward": 1821,
+     "xp": 2601
+    },
+    {
+     "name": "Ионный стрелок",
+     "hp": 20147,
+     "dmg": 4029,
+     "range": 892,
+     "cd": 30,
+     "speed": 6,
+     "cost": 3577,
+     "train": 60,
+     "reward": 2504,
+     "xp": 3577
+    },
+    {
+     "name": "Дредноут-мех",
+     "hp": 92984,
+     "dmg": 8059,
+     "range": 150,
+     "cd": 40,
+     "speed": 4,
+     "cost": 7804,
+     "train": 105,
+     "reward": 5463,
+     "xp": 7804
+    }
+   ],
+   "turret": {
+    "name": "Лазерная турель",
+    "dmg": 4649,
+    "range": 900,
+    "cd": 30,
+    "cost": 9104,
+    "sell": 5463
+   },
+   "special": {
+    "name": "Орбитальный удар",
+    "dmg": 30995
+   },
+   "baseMax": 805866,
+   "xpNeed": 33557,
+   "income": 455224
+  }
+ ],
+ "buckets": [
+  {
+   "name": "Античность",
+   "turret": "Баллиста",
+   "special": "Дождь стрел",
+   "sky": [
+    "#6fa8dc",
+    "#cfe6f5"
+   ],
+   "ground": [
+    "#8a6a3c",
+    "#5a4326"
+   ],
+   "metal": [
+    "#a9743a",
+    "#d9b26a"
+   ]
+  },
+  {
+   "name": "Средневековье",
+   "turret": "Арбалетная башня",
+   "special": "Огненный дождь",
+   "sky": [
+    "#7a8fb3",
+    "#d6c9b0"
+   ],
+   "ground": [
+    "#6e6a3e",
+    "#47452a"
+   ],
+   "metal": [
+    "#8a93a3",
+    "#d3d9e3"
+   ]
+  },
+  {
+   "name": "Эпоха пороха",
+   "turret": "Пушка",
+   "special": "Артобстрел",
+   "sky": [
+    "#8f9aa6",
+    "#d8d3c4"
+   ],
+   "ground": [
+    "#5d5a45",
+    "#3a392c"
+   ],
+   "metal": [
+    "#4a4f58",
+    "#9aa0aa"
+   ]
+  },
+  {
+   "name": "Современность",
+   "turret": "Пулемётная турель",
+   "special": "Авиаудар",
+   "sky": [
+    "#6b7c8c",
+    "#b9c3c9"
+   ],
+   "ground": [
+    "#4f5a45",
+    "#323a2c"
+   ],
+   "metal": [
+    "#586149",
+    "#a6ad8c"
+   ]
+  },
+  {
+   "name": "Будущее",
+   "turret": "Лазерная турель",
+   "special": "Орбитальный удар",
+   "sky": [
+    "#1d1640",
+    "#5a3a8a"
+   ],
+   "ground": [
+    "#2a2540",
+    "#16132a"
+   ],
+   "metal": [
+    "#3ad0e8",
+    "#e8fbff"
+   ]
+  }
+ ]
+}
