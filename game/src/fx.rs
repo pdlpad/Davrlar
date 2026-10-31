@@ -1,4 +1,4 @@
-use crate::draw::{turret_pos, GROUND_Y, W};
+use crate::draw::{turret_x, GROUND_Y, W};
 use davrlar_core::data::Data;
 use davrlar_core::sim::Event;
 use serde::Deserialize;
@@ -271,7 +271,7 @@ impl Fx {
                 }
                 Event::TurretBuilt { o, slot, era } => {
                     let b = data.eras[*era].bucket;
-                    let (x, _) = turret_pos(*o, *slot, 0);
+                    let x = turret_x(*o, *slot);
                     self.add(poof(b, false), x as f64, GY - 40.0, false);
                 }
                 Event::Special { o, era, bucket, dmg, hit } => self.on_special(data, *o, *era, *bucket, *dmg, hit),

@@ -1,5 +1,6 @@
 mod color;
 mod draw;
+mod eras;
 mod fx;
 mod hud;
 mod i18n;
@@ -242,7 +243,7 @@ impl App {
             self.frame.unit(&self.data, u, cx, dy, dir, &anim);
             let max = self.data.eras[u.era].units[u.role].hp;
             if u.hp < max {
-                let top = GROUND_Y + dy - if u.role == 2 { 30 } else { 24 };
+                let top = GROUND_Y + dy - draw::unit_height(u);
                 self.frame.hp_bar(cx, top, u.hp.max(0) as f64 / max as f64);
             }
         }
